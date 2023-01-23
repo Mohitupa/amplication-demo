@@ -63,7 +63,7 @@
     "role": "admin",
     "resource": "Customer",
     "action": "read:own",
-    "attributes": "*,!id,!name,!address,!orders"
+    "attributes": "*"
   },
   {
     "role": "user",
