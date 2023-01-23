@@ -15,7 +15,7 @@ export const CustomerCreate = (props: CreateProps): React.ReactElement => {
   return (
     <Create {...props}>
       <SimpleForm>
-        <TextInput label="Address" source="address" />
+        <TextInput label="Address" multiline source="address" />
         <TextInput label="Name" source="name" />
         <ReferenceArrayInput
           source="orders"
