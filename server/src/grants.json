@@ -62,26 +62,8 @@
   {
     "role": "admin",
     "resource": "Customer",
-    "action": "create:any",
-    "attributes": "*"
-  },
-  {
-    "role": "admin",
-    "resource": "Customer",
-    "action": "update:any",
-    "attributes": "*"
-  },
-  {
-    "role": "admin",
-    "resource": "Customer",
-    "action": "delete:any",
-    "attributes": "*"
-  },
-  {
-    "role": "admin",
-    "resource": "Customer",
-    "action": "read:any",
-    "attributes": "*"
+    "action": "read:own",
+    "attributes": "*,!id,!name,!address,!orders"
   },
   {
     "role": "user",
